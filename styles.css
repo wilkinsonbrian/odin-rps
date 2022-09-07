@@ -1,7 +1,45 @@
-* {
-    border: 2px solid red;
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
+    width: 500px;
+    gap: 50px;
+}
+
+.pScoreValue, .cScoreValue {
+    text-align: center;
 }
 
 .scores {
     display: flex;
+    justify-content: center;
+    gap: 15px;
+    background-color: #F0EDEC;
+    font-size: 18px;
+    color: #A12D06;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;;
+}
+button {
+    background-color: #F56648;
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    text-align: center;
+    width: 100px;
+}
+
+.results {
+    text-align: center;
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
